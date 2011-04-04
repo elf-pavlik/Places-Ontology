@@ -19,11 +19,11 @@
 ; rdfs:comment "The Places Ontology is a simple lightweight ontology for describing places of geographic interest."@en
 ; dcterms:description "The Places Ontology is a simple lightweight ontology for describing places of geographic interest."@en
 ; foaf:maker <http://purl.org/ontology/places/#tom>, <http://purl.org/ontology/places/#rob>, <http://purl.org/ontology/places/#michael>
-; vann:preferredNamespaceUri place:
+; vann:preferredNamespaceUri "http://purl.org/ontology/places#"
 ; vann:preferredNamespacePrefix "place"
 .
 
-<> a cc:Work
+<http://purl.org/ontology/places> a cc:Work
 ; cc:license <http://creativecommons.org/licenses/by/1.0/>
 ; dcterms:type <http://purl.org/dc/dcmitype/Text>
 .
@@ -450,51 +450,51 @@ place:latlong a rdfs:Datatype
 # Language Labels
 #####################################################################
 
-place:Plate rdfs:label "Plate"@en-gb,"Plate"@fr-fr,"Tafel"@de,"Placa"@es,"板"@zh .
-place:LandMass rdfs:label "Landmass"@en-gb,"La masse continentale"@fr-fr,"Landmasse"@de,"Masa de tierra"@es,"陆地"@zh .
-place:Island rdfs:label "Island"@en-gb,"Island"@fr-fr,"Island"@de,"Isla"@es,"岛"@zh .
-place:Continent rdfs:label "Continent"@en-gb,"Continent"@fr-fr,"Kontinent"@de,"Continente"@es,"大陆"@zh .
-place:Country rdfs:label "Country"@en-gb,"Pays"@fr-fr,"Land"@de,"País"@es,"国家"@zh .
-place:Region rdfs:label "Region"@en-gb,"Région"@fr-fr,"Region"@de,"Región"@es,"区"@zh .
-place:ArbitraryRegion rdfs:label "Arbitrary Region"@en-gb,"Région Arbitraire"@fr-fr,"Willkürliche Region"@de,"Arbitraria Región"@es,"任意区域"@zh .
-place:City rdfs:label "City"@en-gb,"City"@fr-fr,"City"@de,"Ciudad"@es,"市"@zh .
-place:Town rdfs:label "Town"@en-gb,"Ville"@fr-fr,"Town"@de,"Ciudad"@es,"镇"@zh .
-place:Village rdfs:label "Village"@en-gb,"Village"@fr-fr,"Village"@de,"Pueblo"@es,"村"@zh .
-place:Lake rdfs:label "Lake"@en-gb,"Lake"@fr-fr,"Lake"@de,"Lago"@es,"湖"@zh .
-place:River rdfs:label "River"@en-gb,"River"@fr-fr,"River"@de,"Río"@es,"河"@zh .
-place:Sea rdfs:label "Sea"@en-gb,"Mer"@fr-fr,"Sea"@de,"Mar"@es,"海"@zh .
-place:Ocean rdfs:label "Ocean"@en-gb,"Ocean"@fr-fr,"Ocean"@de,"Mar"@es,"海洋"@zh .
-place:Mountain rdfs:label "Mountain"@en-gb,"Mountain"@fr-fr,"Mountain"@de,"Montaña"@es,"山"@zh .
-place:Hill rdfs:label "Hill"@en-gb,"Hill"@fr-fr,"Hill"@de,"Hill"@es,"希尔"@zh .
-place:Desert rdfs:label "Desert"@en-gb,"Desert"@fr-fr,"Desert"@de,"Desierto"@es,"沙漠"@zh .
-place:County rdfs:label "County"@en-gb,"Comté"@fr-fr,"County"@de,"Condado"@es,"县"@zh .
-place:State rdfs:label "State"@en-gb,"État"@fr-fr,"Staat"@de,"Estado"@es,"国家"@zh .
-place:Hamlet rdfs:label "Hamlet"@en-gb,"Hamlet"@fr-fr,"Weiler"@de,"Aldea"@es,"村庄"@zh .
-place:Settlement rdfs:label "Settlement"@en-gb,"Règlement"@fr-fr,"Siedlung"@de,"Liquidación"@es,"解决"@zh .
-place:Reservoir rdfs:label "Reservoir"@en-gb,"Réservoir"@fr-fr,"Reservoir"@de,"Depósito"@es,"水库"@zh .
-place:Beach rdfs:label "Beach"@en-gb,"Beach"@fr-fr,"Beach"@de,"Playa"@es,"海滩"@zh .
-place:Road rdfs:label "Road"@en-gb,"Road"@fr-fr,"Road"@de,"Por carretera"@es,"路"@zh .
-place:Path rdfs:label "Path"@en-gb,"Path"@fr-fr,"Path"@de,"Ruta"@es,"路径"@zh .
-place:Bay rdfs:label "Bay"@en-gb,"Bay"@fr-fr,"Bay"@de,"Bahía"@es,"湾"@zh .
-place:Estuary rdfs:label "Estuary"@en-gb,"Estuaire"@fr-fr,"Mündung"@de,"Estuario"@es,"河口"@zh .
-place:Valley rdfs:label "Valley"@en-gb,"Vallée"@fr-fr,"Valley"@de,"Valle"@es,"谷"@zh .
-place:Plain rdfs:label "Plain"@en-gb,"Plain"@fr-fr,"Plain"@de,"Llanura"@es,"平原"@zh .
-place:Cliff rdfs:label "Cliff"@en-gb,"Cliff"@fr-fr,"Cliff"@de,"Acantilado"@es,"悬崖"@zh .
-place:Ridge rdfs:label "Ridge"@en-gb,"Ridge"@fr-fr,"Ridge"@de,"Ridge"@es,"脊"@zh .
-place:Plateau rdfs:label "Plateau"@en-gb,"Plateau"@fr-fr,"Plateau"@de,"Meseta"@es,"高原"@zh .
-place:Isthmus rdfs:label "Isthmus"@en-gb,"Isthme"@fr-fr,"Isthmus"@de,"Istmo"@es,"地峡"@zh .
-place:Peninsula rdfs:label "Peninsula"@en-gb,"Péninsule"@fr-fr,"Halbinsel"@de,"Península"@es,"半岛"@zh .
-place:Glacier rdfs:label "Glacier"@en-gb,"Glacier"@fr-fr,"Gletscher"@de,"Glaciar"@es,"冰川"@zh .
-place:Strait rdfs:label "Strait"@en-gb,"Détroit"@fr-fr,"Meerenge"@de,"Estrecho"@es,"海峡"@zh .
-place:Cape rdfs:label "Cape"@en-gb,"Cap"@fr-fr,"Cape"@de,"Cabo"@es,"披肩"@zh .
-place:Watershed rdfs:label "Watershed"@en-gb,"Des bassins versants"@fr-fr,"Wasserscheide"@de,"Cuencas"@es,"流域"@zh .
-place:Volcano rdfs:label "Volcano"@en-gb,"Volcan"@fr-fr,"Vulkan"@de,"Volcán"@es,"火山"@zh .
-place:Gulf rdfs:label "Gulf"@en-gb,"Golfe"@fr-fr,"Gulf"@de,"Golfo"@es,"海湾"@zh .
-place:Township rdfs:label "Township"@en-gb,"Canton"@fr-fr,"Township"@de,"Municipio"@es,"乡"@zh .
-place:Borough rdfs:label "Borough"@en-gb,"Arrondissement"@fr-fr,"Bezirk"@de,"Municipio"@es,"伯勒"@zh .
-place:District rdfs:label "District"@en-gb,"District"@fr-fr,"Bezirk"@de,"Distrito"@es,"区"@zh .
-place:Parish rdfs:label "Parish"@en-gb,"Paroisse"@fr-fr,"Gemeinde"@de,"Parroquia"@es,"教区"@zh .
-place:Municipality rdfs:label "Municipality"@en-gb,"Municipalité"@fr-fr,"Gemeinde"@de,"Municipio"@es,"市"@zh .
-place:Province rdfs:label "Province"@en-gb,"Province"@fr-fr,"Provinz"@de,"Provincia"@es,"省"@zh .
-place:in rdfs:label "in"@en-gb,"dans"@fr-fr,"in"@de,"en"@es,"在"@zh .
-place:overlaps rdfs:label "overlaps"@en-gb,"chevauchements"@fr-fr,"Überschneidungen"@de,"solapamientos"@es,"重叠"@zh .
+place:Plate rdfs:label "Plate"@en,"Plate"@fr-fr,"Tafel"@de,"Placa"@es,"板"@zh .
+place:LandMass rdfs:label "Landmass"@en,"La masse continentale"@fr-fr,"Landmasse"@de,"Masa de tierra"@es,"陆地"@zh .
+place:Island rdfs:label "Island"@en,"Island"@fr-fr,"Island"@de,"Isla"@es,"岛"@zh .
+place:Continent rdfs:label "Continent"@en,"Continent"@fr-fr,"Kontinent"@de,"Continente"@es,"大陆"@zh .
+place:Country rdfs:label "Country"@en,"Pays"@fr-fr,"Land"@de,"País"@es,"国家"@zh .
+place:Region rdfs:label "Region"@en,"Région"@fr-fr,"Region"@de,"Región"@es,"区"@zh .
+place:ArbitraryRegion rdfs:label "Arbitrary Region"@en,"Région Arbitraire"@fr-fr,"Willkürliche Region"@de,"Arbitraria Región"@es,"任意区域"@zh .
+place:City rdfs:label "City"@en,"City"@fr-fr,"City"@de,"Ciudad"@es,"市"@zh .
+place:Town rdfs:label "Town"@en,"Ville"@fr-fr,"Town"@de,"Ciudad"@es,"镇"@zh .
+place:Village rdfs:label "Village"@en,"Village"@fr-fr,"Village"@de,"Pueblo"@es,"村"@zh .
+place:Lake rdfs:label "Lake"@en,"Lake"@fr-fr,"Lake"@de,"Lago"@es,"湖"@zh .
+place:River rdfs:label "River"@en,"River"@fr-fr,"River"@de,"Río"@es,"河"@zh .
+place:Sea rdfs:label "Sea"@en,"Mer"@fr-fr,"Sea"@de,"Mar"@es,"海"@zh .
+place:Ocean rdfs:label "Ocean"@en,"Ocean"@fr-fr,"Ocean"@de,"Mar"@es,"海洋"@zh .
+place:Mountain rdfs:label "Mountain"@en,"Mountain"@fr-fr,"Mountain"@de,"Montaña"@es,"山"@zh .
+place:Hill rdfs:label "Hill"@en,"Hill"@fr-fr,"Hill"@de,"Hill"@es,"希尔"@zh .
+place:Desert rdfs:label "Desert"@en,"Desert"@fr-fr,"Desert"@de,"Desierto"@es,"沙漠"@zh .
+place:County rdfs:label "County"@en,"Comté"@fr-fr,"County"@de,"Condado"@es,"县"@zh .
+place:State rdfs:label "State"@en,"État"@fr-fr,"Staat"@de,"Estado"@es,"国家"@zh .
+place:Hamlet rdfs:label "Hamlet"@en,"Hamlet"@fr-fr,"Weiler"@de,"Aldea"@es,"村庄"@zh .
+place:Settlement rdfs:label "Settlement"@en,"Règlement"@fr-fr,"Siedlung"@de,"Liquidación"@es,"解决"@zh .
+place:Reservoir rdfs:label "Reservoir"@en,"Réservoir"@fr-fr,"Reservoir"@de,"Depósito"@es,"水库"@zh .
+place:Beach rdfs:label "Beach"@en,"Beach"@fr-fr,"Beach"@de,"Playa"@es,"海滩"@zh .
+place:Road rdfs:label "Road"@en,"Road"@fr-fr,"Road"@de,"Por carretera"@es,"路"@zh .
+place:Path rdfs:label "Path"@en,"Path"@fr-fr,"Path"@de,"Ruta"@es,"路径"@zh .
+place:Bay rdfs:label "Bay"@en,"Bay"@fr-fr,"Bay"@de,"Bahía"@es,"湾"@zh .
+place:Estuary rdfs:label "Estuary"@en,"Estuaire"@fr-fr,"Mündung"@de,"Estuario"@es,"河口"@zh .
+place:Valley rdfs:label "Valley"@en,"Vallée"@fr-fr,"Valley"@de,"Valle"@es,"谷"@zh .
+place:Plain rdfs:label "Plain"@en,"Plain"@fr-fr,"Plain"@de,"Llanura"@es,"平原"@zh .
+place:Cliff rdfs:label "Cliff"@en,"Cliff"@fr-fr,"Cliff"@de,"Acantilado"@es,"悬崖"@zh .
+place:Ridge rdfs:label "Ridge"@en,"Ridge"@fr-fr,"Ridge"@de,"Ridge"@es,"脊"@zh .
+place:Plateau rdfs:label "Plateau"@en,"Plateau"@fr-fr,"Plateau"@de,"Meseta"@es,"高原"@zh .
+place:Isthmus rdfs:label "Isthmus"@en,"Isthme"@fr-fr,"Isthmus"@de,"Istmo"@es,"地峡"@zh .
+place:Peninsula rdfs:label "Peninsula"@en,"Péninsule"@fr-fr,"Halbinsel"@de,"Península"@es,"半岛"@zh .
+place:Glacier rdfs:label "Glacier"@en,"Glacier"@fr-fr,"Gletscher"@de,"Glaciar"@es,"冰川"@zh .
+place:Strait rdfs:label "Strait"@en,"Détroit"@fr-fr,"Meerenge"@de,"Estrecho"@es,"海峡"@zh .
+place:Cape rdfs:label "Cape"@en,"Cap"@fr-fr,"Cape"@de,"Cabo"@es,"披肩"@zh .
+place:Watershed rdfs:label "Watershed"@en,"Des bassins versants"@fr-fr,"Wasserscheide"@de,"Cuencas"@es,"流域"@zh .
+place:Volcano rdfs:label "Volcano"@en,"Volcan"@fr-fr,"Vulkan"@de,"Volcán"@es,"火山"@zh .
+place:Gulf rdfs:label "Gulf"@en,"Golfe"@fr-fr,"Gulf"@de,"Golfo"@es,"海湾"@zh .
+place:Township rdfs:label "Township"@en,"Canton"@fr-fr,"Township"@de,"Municipio"@es,"乡"@zh .
+place:Borough rdfs:label "Borough"@en,"Arrondissement"@fr-fr,"Bezirk"@de,"Municipio"@es,"伯勒"@zh .
+place:District rdfs:label "District"@en,"District"@fr-fr,"Bezirk"@de,"Distrito"@es,"区"@zh .
+place:Parish rdfs:label "Parish"@en,"Paroisse"@fr-fr,"Gemeinde"@de,"Parroquia"@es,"教区"@zh .
+place:Municipality rdfs:label "Municipality"@en,"Municipalité"@fr-fr,"Gemeinde"@de,"Municipio"@es,"市"@zh .
+place:Province rdfs:label "Province"@en,"Province"@fr-fr,"Provinz"@de,"Provincia"@es,"省"@zh .
+place:in rdfs:label "in"@en,"dans"@fr-fr,"in"@de,"en"@es,"在"@zh .
+place:overlaps rdfs:label "overlaps"@en,"chevauchements"@fr-fr,"Überschneidungen"@de,"solapamientos"@es,"重叠"@zh .
